@@ -5,11 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Comics</title>
+    <link rel="icon" href="images/logo.png">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 
     <style>
-
+        .card:hover{
+            background-color: rgb(255, 81, 0);
+        }
     </style>
 </head>
 <body>
@@ -45,23 +48,49 @@
           </nav>
     </header>
 
-    <main class="container-fluid d-flex justify-content-center p-5">
+    <main>
+        <div class="d-flex justify-content-center ">
 
-        <section class="row">
-
-            <div class="col">
-                <div class="card p-2 shadow" style="width: 32.5em ;">
-                    <img src="images/DC.jpg" class="card-img-top" alt="..." style="height: 700px; width:500px;">
-                    <a href="#" class="stretched-link"></a>
+            <div class="row ps-5 m-5">
+                <div class="col  pe-5 me-5">
+                    <h1 class="">DC</h1>
+                </div>
+                <div class="col px-5 mx-5">
+                    <h1 class="ps-5 mx-4">|</h1>
+                </div>
+                <div class="col  ps-5 ms-5">
+                    <h1 class="">MARVEL</h1>
                 </div>
             </div>
 
-            <div class="col">
-                <div class="card p-2 shadow" style="width: 32.5em ;">
-                    <img src="images/marvel.jpg" class="card-img-top" alt="..."  style="height: 700px; width:500px;">
-                    <a href="#" class="stretched-link"></a>
+        </div>
+        
+
+
+        <div class="d-flex justify-content-center p-5">
+            <div class="row">
+                
+                <div class="col pb-1">
+
+                    <div class="card p-2 shadow " style="width: 29.3em ;">
+
+                        <img id="image" src="images/DC.jpg" class="card-img-top " style="height: 650px; width:450px;">
+                        <a href="dccomics.html" class="stretched-link"></a>
+                    </div>
+
                 </div>
+
+                <div class="col">
+                    <div class="card p-2 shadow" style="width: 29.3em ;">
+                        <img src="images/marvel.jpg" class="card-img-top" alt="..."  style="height: 650px; width:450px;">
+                        <a href="marvelcomics.html" class="stretched-link"></a>
+                    </div>
+                </div>
+
             </div>
+
+        </div>
+            
 
 
         </section>
